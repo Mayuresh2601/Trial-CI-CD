@@ -10,4 +10,16 @@ public class HelloController {
 	public String hello() {
 		return "Hello World from Mayuresh Sonar to Bridgelabz Company (Gowandi)And in mumbai";
 	}
+	
+	@GetMapping("/register")
+	public String registerUser() {
+		
+		return "User Registered Successfully";
+	}
+	
+	@GetMapping("/login")
+	public String loginUser() {
+		
+		return "User Login Successfully";
+	}
 }
