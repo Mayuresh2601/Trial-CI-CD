@@ -14,12 +14,12 @@ public class HelloController {
 	@GetMapping("/register")
 	public String registerUser() {
 		
-		return "User Registered Successfully";
+		return "User Registered Successfully From Bridgelabz";
 	}
 	
 	@GetMapping("/login")
 	public String loginUser() {
 		
-		return "User Login Successfully";
+		return "User Login Successfully From Bridgelabz";
 	}
 }
