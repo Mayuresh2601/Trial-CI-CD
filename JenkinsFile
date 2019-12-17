@@ -1,29 +1,24 @@
 pipeline {
-   agent any
 
-   stages {
-      stage('Compile Stage') {
-         steps {
-           
-            sh 'mvn clean compile'
-            
-         }
-      }
-   
-      stage('Testing Stage') {
-         steps {
-         
-            sh 'mvn testing Phase'
-            
-         }
-      }
-   
-      stage('Deployment Stage') {
-         steps {
-         
-            sh 'mvn deploy Phase'
-            
-         }
-      }
-   }
-}
+    agent any
+       stages {
+                stage('Compile Stage') {
+                    steps {
+                        echo "clean compile"
+                }
+            }
+             stage('testing stage') {
+                     steps {
+                        echo "clean test"
+                }
+            }
+
+              stage('deployment stage') {
+                  steps {
+                    echo " cleanly deployed"
+                    
+            }
+        } 
+    }
+
+  }
