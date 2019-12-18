@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping
 	public String hello() {
-		return "Hello World from Mayuresh Sonar to Bridgelabz Comp.(Gowandi West)";
+		return "Hello World from Mayuresh Sonar to Bridgelabz Company(Gowandi West)";
 	}
 	
 	@GetMapping("/register")
